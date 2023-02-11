@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/qa-skills/static/css/main.1e943a90.css",
+    "main.js": "/qa-skills/static/js/main.b3ec2f0a.js",
+    "index.html": "/qa-skills/index.html",
+    "main.1e943a90.css.map": "/qa-skills/static/css/main.1e943a90.css.map",
+    "main.b3ec2f0a.js.map": "/qa-skills/static/js/main.b3ec2f0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e943a90.css",
+    "static/js/main.b3ec2f0a.js"
+  ]
+}
