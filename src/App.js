@@ -1,18 +1,23 @@
 import "./App.scss";
 
+import { Exercise3, SignIn, SignUp } from "./exercise3";
 import { Outlet, Route, Routes } from "react-router-dom";
 
 import { Exercise1 } from "./exercise1";
 import { Exercise2 } from "./exercise2";
-import { Exercise3 } from "./exercise3";
 
 function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Exercise1 />} />
+        <Route path="/exercise1" element={<Exercise1 />} />
         <Route path="/exercise2" element={<Exercise2 />} />
-        <Route path="/exercise3" element={<Exercise3 />} />
+        <Route element={<Exercise3 />}>
+          <Route path="/exercise3" element={<SignIn />} />
+          <Route path="/exercise3/sign-up" element={<SignUp />} />
+          <Route path="/exercise3/sign-in" element={<SignIn />} />
+        </Route>
       </Route>
     </Routes>
   );
@@ -34,7 +39,13 @@ function Layout() {
             <a href="#terms">Terms</a>
           </li>
           <li className="list-inline-item">
-            <a href="#support">Support</a>
+            <a
+              href="https://github.com/claudia-serra/qa-skills"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
           </li>
         </ul>
       </footer>

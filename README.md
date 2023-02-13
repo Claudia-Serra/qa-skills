@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Exercises
 
-1. [Time conversion](https://claudia-serra.github.io/exercise1)
+1. [Time conversion](https://claudia-serra.github.io/qa-skills/#/exercise1)
 
-2. [Datepicker](https://claudia-serra.github.io/exercise2)
+2. [Datepicker](https://claudia-serra.github.io/qa-skills/#/exercise2)
 
-3. [Sign up, Sign in, Sign out](https://claudia-serra.github.io/exercise3)
+3. [Sign up, Sign in, Sign out](https://claudia-serra.github.io/qa-skills/#/exercise3)
 
 ## Deployment
 
