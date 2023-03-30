@@ -1,10 +1,13 @@
 import "./App.scss";
 
-import { Exercise3, SignIn, SignUp } from "./exercise3";
 import { Outlet, Route, Routes } from "react-router-dom";
 
 import { Exercise1 } from "./exercise1";
 import { Exercise2 } from "./exercise2";
+import { Exercise3 } from "./exercise3";
+import { SignIn } from "./exercise3/signin";
+import { SignUp } from "./exercise3/signup";
+import { SignedIn } from "./exercise3/signedin";
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           <Route path="/exercise3" element={<SignIn />} />
           <Route path="/exercise3/sign-up" element={<SignUp />} />
           <Route path="/exercise3/sign-in" element={<SignIn />} />
+          <Route path="/exercise3/signed-in" element={<SignedIn />} />
         </Route>
       </Route>
     </Routes>
