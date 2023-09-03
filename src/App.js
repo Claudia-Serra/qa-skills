@@ -34,7 +34,7 @@ function Layout() {
         <Outlet />
       </main>
       <footer className="my-5 pt-5 text-muted text-center text-small">
-        <p className="mb-1">© 2023 PST Método</p>
+        <p className="mb-1">© Cláudia Serra</p>
         <ul className="list-inline">
           <li className="list-inline-item">
             <a href="#pricacy">Privacy</a>
