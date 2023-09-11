@@ -15,5 +15,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 to Github Pages:
 
 ```bash
-npm deploy
+npm run deploy
 ```
